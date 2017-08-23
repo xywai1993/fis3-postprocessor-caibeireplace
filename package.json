@@ -1,0 +1,10 @@
+{
+  "name": "caibeireplace",
+  "version": "1.0.0",
+  "author": "yiper.fan",
+  "repository": {
+    "type": "git",
+    "url":"git+https://github.com/xywai1993/fis3-postprocessor-caibeireplace"
+  },
+  "main":"index.js"
+}
