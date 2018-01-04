@@ -6,7 +6,7 @@
 ```javascript
 fis.media('prod').match('/js/page/**.js', {
     postprocessor: fis.plugin('caibeireplace', {
-        reg: [{re: /vue.dev2.1.10/g, replace: 'min2.1.10'},
+        reg: [{re: /vue.dev2.1.10/g, replace: 'vue.min2.1.10'},
         ]
     }),
     optimizer: fis.plugin('uglify-js',{
